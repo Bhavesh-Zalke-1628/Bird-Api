@@ -6,7 +6,7 @@ function CustomRoute() {
         <>
             <Routes>
                 <Route path="/" element={<Home/>} />
-                <Route path="/Home/id" element={<Single/>} />
+                <Route path="/Home/:id" element={<Single/>} />
             </Routes>
         </>
     )

@@ -26,10 +26,7 @@ function Single() {
     return (
         <div>
             {
-                // bird.map((b) => {
-                //     // console.log(b.dec)
-                //     <div className="name">{b.name}</div>
-                // })
+                <Single/>
             }
         </div>
     )
