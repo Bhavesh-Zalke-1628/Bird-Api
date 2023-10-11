@@ -1,0 +1,8 @@
+.HomeWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: linear-gradient(rgb(157, 112, 112),rgb(140, 154, 168),rgb(84, 84, 138));
+}

@@ -1,0 +1,24 @@
+
+.LayoutWrapper{
+    height: 300px;
+    width: 250px;
+    color: white;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.BirdImg{
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px #000;
+}
+
+.BirdImg:hover{
+    box-shadow: 7px 7px 7px #2c779c;
+    cursor: pointer;
+}
