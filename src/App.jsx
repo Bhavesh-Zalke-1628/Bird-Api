@@ -1,11 +1,11 @@
 
-import './App.css'  
-import CustomRoute from './Component/Routes/CustomeRoute'
-import Single from './Component/Single/Single'
+import './App.css'
+import { CustomeRoute } from './Component/Routes/CustomeRoute'
+import { Single } from './Component/Single/Single'
 function App() {
   return (
     <>
-      <CustomRoute/>
+      <CustomeRoute/>
       <Single/>
     </>
 

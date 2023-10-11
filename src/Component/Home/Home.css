@@ -1,12 +1,24 @@
-.HomeWrapper{
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    background: linear-gradient(rgb(157, 112, 112),rgb(140, 154, 168),rgb(84, 84, 138));
+#parent { 
+    display: grid;
+    min-width: 100%;
+    grid-template-columns: repeat(4,200px);
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+   
 }
-::-webkit-scrollbar{
-    display: none;
+#parent *{
+    margin: auto;
+}
+
+#parent div{
+
+    margin: auto;
+}
+#parent img { 
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
 }

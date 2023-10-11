@@ -1,0 +1,15 @@
+#photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#Img{
+    height: 500px;
+    border-radius: 20px;
+}
+#title{
+    text-align: center  ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
